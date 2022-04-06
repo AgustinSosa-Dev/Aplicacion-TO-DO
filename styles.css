@@ -42,11 +42,14 @@ form {
 }
 
 .inputForm {
+  border: none; 
+  position: relative;
+  top: -2.1em;
   border: none;
   padding: 10px;
   border: 1px solid #eee;
   outline: none;
-  width: 30%;
+  width: 35%;
 }
 
 .inputForm::placeholder {
@@ -54,6 +57,10 @@ form {
 }
 
 .btnCreate {
+  position: relative;
+  top: -2.1em;
+  width: 110px;
+  height: 36px;
   padding: 10px 15px;
   background-image: linear-gradient(
     109.6deg,
@@ -130,5 +137,12 @@ form {
 
 .date {
   width: 100%;
-  padding: 15px;
+  padding: 30px;
+}
+
+.input-date {
+  position: relative;
+  top: 1em;
+  left: -0.9em;
+  width: 35%;
 }
